@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'LeferiPoint-WhiteObliqueA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#FAQ_container {
+    font-family: LeferiPoint-WhiteObliqueA;
+
+    padding: 5%;
+}
+
+details {
+    border-bottom: 1px solid #efefef;
+    color: #666;
+    font-size:medium;
+    padding: 15px;
+}
+
+
+details[open] summary {
+    font-weight: 800;
+}
+
+details > summary {
+    color: #333;
+    font-size:medium;
+    padding: 15px 0;
+}
+
+.FAQ {
+    margin-left: 1%;
+    font-weight: bold;
+}

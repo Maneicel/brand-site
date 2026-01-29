@@ -1,0 +1,25 @@
+.board {
+    text-align: center;
+    
+    width: 100%;
+    white-space: nowrap;
+}
+
+/* 게시판 내부 */
+.name {
+    text-decoration: none;
+    width: 80%;
+}
+
+.day {
+    width: 20%;
+}
+
+
+
+/* */
+@media screen and (max-width: 600px) {
+    th, td {
+        font-size: 12px;
+    }
+}
