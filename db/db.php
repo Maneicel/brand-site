@@ -1,7 +1,4 @@
 <?php 
-//https://wikidocs.net/117002
-//https://www.codingfactory.net/10075
-// https://programmerdaddy.tistory.com/232
 function db_get_pdo()
 {
     $host = 'localhost';
