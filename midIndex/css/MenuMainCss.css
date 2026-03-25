@@ -1,0 +1,31 @@
+#main {
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.menu_container {
+    margin-left: 5px;
+    margin-bottom: 3%;
+    float: left;
+
+}
+
+.menu_container img {
+    width: 200px;
+    height: 220px;
+    border: 1px solid #123123;
+}
+
+.name_ko {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.name_en {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.semi {
+    font-weight: lighter;
+    font-size: small;
+}
