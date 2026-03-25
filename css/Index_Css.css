@@ -1,6 +1,4 @@
-/*first============================================================================*/
-/*==상단 좌측======================*/
-.IndexMenuTitle{
+#IndexMenuTitle{
     width: 50%;
     height: 400px;
     background-color: #EAE5DF;
@@ -12,15 +10,14 @@
 }
 
 .TitleHead {
-    margin-left: 80px;
-
+    margin-left: 10vw;
     font-size:40px;
     font-weight: bolder;
     color:#232323;
 }
 
 .Titlebody {
-    margin-left: 100px;
+    margin-left: 12vw;
     white-space: nowrap;
     font-size: medium;
     font-weight:lighter;
@@ -76,7 +73,6 @@
     width: 50%;
     height: 500px;
     background-color: #FFFFFF;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,21 +80,13 @@
 }
 
 .IndexEventImg {
-    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
 
-    width: 85%;
-}
-/*
-.IndexEventText {
-    margin: 0 auto;
-    font-weight:lighter;
-    font-size:medium;
-    color:#232323;
-}
-*/
 .IndexEvents button {
-    margin: 10px auto;
-
+    margin: auto;
+    margin-bottom: 10px;
     padding: 10px;
     background-color: #d6cdc1;
     

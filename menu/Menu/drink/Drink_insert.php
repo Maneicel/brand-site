@@ -1,18 +1,18 @@
 <?php
 $type = "drink";
-$img = "/midIndex/img/DB/drink1.jpg";
+$img = "/img/DB/drink1.jpg";
 $semi_explan = $_REQUEST["semi_explan"];
 $sub_explan = $_REQUEST["sub_explan"];
 $name_en = $_REQUEST["name_en"];
 $name_ko = $_REQUEST["name_ko"];
 
 if ($semi_explan != "" && $sub_explan != "" && $name_en != "" && $name_ko != "") {
-    require("..\..\..\db\dbConnect.php");
+    require("../../../db/dbConnect.php");
 
     $db->exec("insert into menu (img, semi_explan, sub_explan, name_en, name_ko, type)
                 values ('$img', '$semi_explan', '$sub_explan', '$name_en', '$name_ko', '$type' )");
 
-    header("Location:/midIndex/menu/Admin/AdminMain.php");
+    header("Location:/menu/Admin/AdminMain.php");
     exit;
 }
 ?>

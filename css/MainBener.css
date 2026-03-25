@@ -1,32 +1,28 @@
-
-/* 캐러셀 전체 구조  */
 .MainBenner {
-    width: 700px; /* 이미지 크기 설정  */
+    width: 100%;
     position: relative;
     overflow: hidden;
-    margin: 0 auto;
     user-select: none;
 }
 
 .container {
     display: flex;
+    padding: 0px;
+    margin: 0px;
     transition: transform 1s;
 }
 
 .inner {
-    flex: 0 0 700px; 
-    position: relative;
+    flex: 0 0 100%;
 }
 
-.inner img{
+.inner img {
     display: block;
-    width: 100%;
-    height: auto; /* 자동으로 세로 비율을 유지합니다. */
-    max-height: 100%; /* 이미지가 부모 요소보다 클 때만 늘림 */
+    width: 99vw;
+    height: 400px;
+    object-fit: cover;
 }
 
-
-/* 캐러셀 중앙 버튼 */
 .Benner_Button {
     position: absolute;
     bottom: 10px;
@@ -47,5 +43,3 @@
 .carousel_circle.active {
     background-color: #333;
 }
-
-

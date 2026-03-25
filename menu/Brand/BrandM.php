@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="\midIndex\css\TextBenner.css" rel="stylesheet">
-    <link href="\midIndex\css\BrandMainCss.css" rel="stylesheet">
+    <link href="/css/TextBenner.css" rel="stylesheet">
+    <link href="/css/BrandMainCss.css" rel="stylesheet">
     <title>브랜드 메인</title>
 
     <style>
@@ -35,7 +35,7 @@
 
 <body>
     <!--상단 메뉴바---------------------------------------->
-    <?php require_once("..\..\Header.php"); ?>
+    <?php require_once("../../Header.php"); ?>
 
     <!--상단 배너---------------------------------------->
     <div class="TextBenner">
@@ -52,25 +52,8 @@
         <span id="txt_4">노력하는 정원입니다.</span>
     </div>
 
-    <ul class="brandUl">
-        <li>
-            <div>Comfort</div>
-            <div>편안함</div>
-            <div>최고의 서비스를 제공하여<br>모두가 편안하게</div>
-        </li>
-        <li><div>Comfort</div>
-            <div>편안함</div>
-            <div>최고의 서비스를 제공하여<br>모두가 편안하게</div>
-        </li>
-        <li><div>Comfort</div>
-            <div>편안함</div>
-            <div>최고의 서비스를 제공하여<br>모두가 편안하게</div>
-        </li>
-    </ul>
-
-
     <!--하단 정보바---------------------------------------->
-    <?php require_once("..\..\Footer.php"); ?>
+    <?php require_once("../../Footer.php"); ?>
 
 </body>
 

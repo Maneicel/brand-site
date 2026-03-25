@@ -1,10 +1,10 @@
 <?php
-require_once("..\..\db\db.php");
+require_once("../../db/db.php");
 
 $id = $_REQUEST["id"];
 $pw = $_REQUEST["pw"];
 
-require("..\..\db\dbConnect.php");
+require("../../db/dbConnect.php");
 
 $result = $db->query("select * from member where id='$id' and pw='$pw'");
 if ($row = $result->fetch()) {

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="\midIndex\css\TextBenner.css" rel="stylesheet">
-    <link href="\midIndex\css\Table.css" rel="stylesheet">
-    <link rel="stylesheet" href="\midIndex\css\boot\bootstrap.css">
+    <link href="/css/TextBenner.css" rel="stylesheet">
+    <link href="/css/Table.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/boot/bootstrap.css">
     <title>공지사항</title>
 
     <style>
@@ -20,7 +20,7 @@
 
 <body>
     <!--상단 메뉴바---------------------------------------->
-    <?php require_once("..\..\..\Header.php"); ?>
+    <?php require_once("../../../Header.php"); ?>
 
     <!--상단 배너---------------------------------------->
     <div class="TextBenner">
@@ -43,8 +43,8 @@
             </thead>
             <tbody class="table-group-divider">
                 <?php
-                require("..\..\..\db\dbConnect.php");
-                $result = $db->query("select * from News_board order by num desc");
+                require("../../../db/dbConnect.php");
+                $result = $db->query("select * from news_board order by num desc");
                 while ($row = $result->fetch()) {
                     ?>
                     <tr>
@@ -80,7 +80,7 @@
     </div>
 
     <!--하단 정보바---------------------------------------->
-    <?php require_once("..\..\..\Footer.php"); ?>
+    <?php require_once("../../../Footer.php"); ?>
 
 </body>
 

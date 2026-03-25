@@ -1,3 +1,3 @@
 <?php
-    $db = new PDO("mysql:host=localhost; port=3306; dbname=midcafe; charset=utf8", "root", "");
+    $db = new PDO("mysql:host=localhost; dbname=kimyoondev; charset=utf8", "kimyoondev", "lilomql0811!");
 ?>

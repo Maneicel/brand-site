@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="\midIndex\css\TextBenner.css" rel="stylesheet">
-    <link href="\midIndex\css\AdminLoginMainCss.css" rel="stylesheet">
+    <link href="/css/TextBenner.css" rel="stylesheet">
+    <link href="/css/AdminLoginMainCss.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -15,7 +15,7 @@
     ?>
 
     <!--상단 메뉴바---------------------------------------->
-    <?php require_once("..\..\Header.php"); ?>
+    <?php require_once("../../Header.php"); ?>
 
     <!--상단 배너---------------------------------------->
     <div class="TextBenner">
@@ -55,14 +55,14 @@
 
         <div class="AdminMenu">
             <div class="NewsMenu">
-                <button class="BT" onclick="location.href='//localhost/midIndex/menu/News/N/News_write.php'">공지사항 쓰기</button>
-                <button class="BT" onclick="location.href='//localhost/midIndex/menu/News/NE/NewsE_write.php'">이벤트 쓰기</button>
-                <button class="BT" onclick="location.href='//localhost/midIndex/menu/News/NN/NewsN_write.php'">보도자료 쓰기</button>
+                <button class="BT" onclick="location.href='/menu/News/N/News_write.php'">공지사항 쓰기</button>
+                <button class="BT" onclick="location.href='/menu/News/NE/NewsE_write.php'">이벤트 쓰기</button>
+                <button class="BT" onclick="location.href='/menu/News/NN/NewsN_write.php'">보도자료 쓰기</button>
             </div>
             <div class="MenuMenu">
-                <button class="BT" onclick="location.href='//localhost/midIndex/menu/Menu/drink/Drink_write.php'">음료 메뉴 추가하기</button>
-                <button class="BT" onclick="location.href='//localhost/midIndex/menu/Menu/food/Food_write.php'">음식 메뉴 추가하기</button>
-                <button class="BT" onclick="location.href='//localhost/midIndex/menu/Menu/md/MD_write.php'">MD 추가하기</button>
+                <button class="BT" onclick="location.href='/menu/Menu/drink/Drink_write.php'">음료 메뉴 추가하기</button>
+                <button class="BT" onclick="location.href='/menu/Menu/food/Food_write.php'">음식 메뉴 추가하기</button>
+                <button class="BT" onclick="location.href='/menu/Menu/md/MD_write.php'">MD 추가하기</button>
             </div>
         </div>
         <?php
@@ -72,7 +72,7 @@
 
 
     <!--하단 정보바---------------------------------------->
-    <?php require_once("..\..\Footer.php"); ?>
+    <?php require_once("../../Footer.php"); ?>
 
 
 

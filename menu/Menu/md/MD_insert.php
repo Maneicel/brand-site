@@ -7,7 +7,7 @@ $name_en = $_REQUEST["name_en"];
 $name_ko = $_REQUEST["name_ko"];
 
 if ($semi_explan != "" && $sub_explan != "" && $name_en != "" && $name_ko != "") {
-    require("..\..\..\db\dbConnect.php");
+    require("../../../db/dbConnect.php");
 
     $db->exec("insert into menu (img, semi_explan, sub_explan, name_en, name_ko, type)
                 values ('$img', '$semi_explan', '$sub_explan', '$name_en', '$name_ko', '$type' )");

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="\midIndex\css\TextBenner.css" rel="stylesheet">
+    <link href="/css/TextBenner.css" rel="stylesheet">
     <title>채용</title>
 
     <style>
@@ -18,7 +18,7 @@
 
 <body>
     <!--상단 메뉴바---------------------------------------->
-    <?php require_once("..\..\Header.php"); ?>
+    <?php require_once("../../Header.php"); ?>
 
     <!--상단 배너---------------------------------------->
     <div class="TextBenner">
@@ -41,7 +41,7 @@
 
 
     <!--하단 정보바---------------------------------------->
-    <?php require_once("..\..\Footer.php"); ?>
+    <?php require_once("../../Footer.php"); ?>
 
 </body>
 

@@ -29,8 +29,9 @@
     </div>
 
     <!--카카오맵 api 불러오기-->
-    <div id="map" style="width:100%; height:500px;"></div>
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=459c1d8059c69c7c81301bb1e76b1e0b"></script>
+    <div id="map" style="width:500px;height:400px;"></div>
+    <div id="map" style="width:500px;height:400px;"></div>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=api"></script>
 	<script>
 		var container = document.getElementById('map');
 		var options = {

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="\midIndex\css\TextBenner.css" rel="stylesheet">
-    <link href="\midIndex\css\Table.css" rel="stylesheet">
-    <link rel="stylesheet" href="\midIndex\css\boot\bootstrap.css">
+    <link href="/css/TextBenner.css" rel="stylesheet">
+    <link href="/css/Table.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/boot/bootstrap.css">
     <title>MD 추가</title>
 
     <style>
@@ -20,7 +20,7 @@
 
 <body>
     <!--상단 메뉴바---------------------------------------->
-    <?php require_once("..\..\..\Header.php"); ?>
+    <?php require_once("../../../Header.php"); ?>
 
     <!--상단 배너---------------------------------------->
     <div class="TextBenner">
@@ -90,7 +90,7 @@
             </table>
 
             <br>
-            <input type="submit" value="저장" onclick="location.href='/midIndex/menu/Admin/AdminMain.php'">
+            <input type="submit" value="저장" onclick="location.href='/menu/Admin/AdminMain.php'">
             <input type="button" value="취소" onclick="history.back()">
         </form>
 
@@ -103,7 +103,7 @@
         </div>
 
         <!--하단 정보바---------------------------------------->
-        <?php require_once("..\..\..\Footer.php"); ?>
+        <?php require_once("../../../Footer.php"); ?>
 
     </body>
 

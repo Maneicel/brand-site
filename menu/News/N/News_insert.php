@@ -6,8 +6,8 @@ $content = $_REQUEST["content"];
 if ($title != "" && $writer != "" && $content != "") {
     $regtime = date("Y-m-d");
 
-    require("..\..\..\db\dbConnect.php");
-    $db->exec("insert into News_board (writer, title, content, regtime, hits)
+    require("../../../db/dbConnect.php");
+    $db->exec("insert into news_board (writer, title, content, regtime, hits)
                 values ('$writer', '$title', '$content', '$regtime', 0)");
 
     header("Location:News.php");

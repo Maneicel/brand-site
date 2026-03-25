@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="\midIndex\css\TextBenner.css" rel="stylesheet">
-    <link href="\midIndex\css\MenuMainCss.css" rel="stylesheet">
+    <link href="/css/TextBenner.css" rel="stylesheet">
+    <link href="/css/MenuMainCss.css" rel="stylesheet">
     <title>음료 메뉴</title>
 
     <style>
@@ -19,7 +19,7 @@
 
 <body>
     <!--상단 메뉴바---------------------------------------->
-    <?php require_once("..\..\..\Header.php"); ?>
+    <?php require_once("../../../Header.php"); ?>
 
     <!--상단 배너---------------------------------------->
     <div class="TextBenner">
@@ -31,7 +31,7 @@
     <!--메인-->
     <div id="main">
     <?php
-    require("..\..\..\db\dbConnect.php");
+    require("../../../db/dbConnect.php");
     $result = $db->query("select * from menu where type='drink' order by num desc ");
     while ($row = $result->fetch()) {
     ?>
@@ -59,7 +59,7 @@
 
 
     <!--하단 정보바---------------------------------------->
-    <?php require_once("..\..\..\Footer.php"); ?>
+    <?php require_once("../../../Footer.php"); ?>
 
 </body>
 

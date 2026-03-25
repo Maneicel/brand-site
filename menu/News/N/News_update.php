@@ -7,8 +7,8 @@ $num = $_REQUEST["num"];
 if ($title != "" && $writer != "" && $content != "") {
     $regtime = date("Y-m-d");
 
-    require("..\..\..\db\dbConnect.php");
-    $db->exec("update News_board set
+    require("../../../db/dbConnect.php");
+    $db->exec("update news_board set
                 writer='$writer', title='$title', content='$content', regtime='$regtime'
                 where num=$num");
 
