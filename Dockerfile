@@ -3,7 +3,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y apache2 php libapache2-mod-php
 RUN rm -rf /var/www/html/*
 COPY . /var/www/html/
-RUN ls /var/www/html/
+RUN find /var/www/html -name "index.html" -delete
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 RUN sed -i 's/80/8080/g' /etc/apache2/sites-available/000-default.conf /etc/apache2/ports.conf
 EXPOSE 8080
